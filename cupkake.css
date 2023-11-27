@@ -51,6 +51,7 @@ main {
     width: 500px;
     padding-left: 1390px;
     align-items: left;
+    display: inline-block;
 }
 
 .h1 {
@@ -68,6 +69,7 @@ main {
     font-family: Garamond;
     font-size: 20px;
     padding: 30px;
+    display: inline-block;
 }
 
 
