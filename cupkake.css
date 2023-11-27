@@ -1,0 +1,333 @@
+body {
+    width: 100%;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(242, 195, 208);
+}
+
+header {
+    background: linear-gradient(rgb(154, 241, 251), #f084ea);
+}
+
+@media screen and (max-width:480px) {
+
+    body {
+        margin: 882px;
+        width: 882px;
+    }
+
+    .caixa,
+    .titulo-descrição,
+    .gostosos,
+    .titulo-gostoso,
+    .mapa {
+        width: 840px;
+        margin: 100%;
+    }
+
+    header {
+        margin: auto;
+    }
+}
+
+.imagemlogo {
+    width: 24%;
+    padding: 0%;
+    margin: 0%;
+}
+
+main {
+    display: inline-block;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    font-style: oblique;
+}
+
+.ponei {
+    width: 500px;
+    padding-left: 1390px;
+    align-items: left;
+}
+
+h1 {
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+    font-family: Helvética;
+    color: darkmagenta;
+    font-size: 32px;
+}
+
+.descrição {
+    text-align: left;
+    font-family: Garamond;
+    width: 30px 0px;
+    padding: 30px;
+}
+
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: Palatino, URW Palladio L, serif;
+}
+
+nav a:hover {
+    color: rgb(255, 84, 207);
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #c78c19;
+    font-size: 40px;
+}
+
+.produtos li:active {
+    border-color: #ff1c08;
+}
+
+.produtos li:hover h2 {
+    font-size: 50px;
+
+
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descrição {
+    font-size: 18px;
+}
+
+.produto-preço {
+    font-size: 22px;
+    font-weight: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background: rgb(202, 0, 94);
+    padding: 60px 0;
+
+}
+
+form {
+    margin: 30px 0;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form label,
+form p {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 30%;
+}
+
+.fone {
+    width: 15%;
+
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+    width: 30%;
+}
+
+.input- .bobice {
+    padding: 10px;
+    margin: 10px;
+    font-style: italic;
+
+}
+
+.checkbox {
+    margin: 10px;
+}
+
+p {
+    color: #000000;
+    font-style: italic;
+}
+
+form p {
+    color: rgb(93, 93, 93);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #716f6f;
+    color: white;
+    font-weight: bold;
+
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+*/css da pagina inicial/ .banner {
+    width: 100%;
+}
+
+h3 {
+    display: inline-block;
+    vertical-align: top;
+    width: 800px;
+}
+
+.utensilios {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    width: 1896;
+    padding: 3em 0;
+}
+
+.mapa-conteudo {
+    width: 1896px;
+    margin: 800 auto;
+}
+
+.mapa p {
+    margin: 0 0em;
+    text-align: center;
+}
+
+
+.beneficios {
+    padding: 3em 0;
+    background: #888888;
+
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens::before {
+    content: "☆";
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imagem-beneficios {
+    width: 60%;
+    opacity: 0.3;
+    transition: 100;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+.imagem-beneficios:hover {
+    opacity: 100;
+}
+
+#atendimento {
+    font-weight: bold;
+}
+
+.titulo-gostoso {
+    opacity: 100%;
+    color: rgb(255, 8, 177);
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    font-style: oblique;
+}
+
+.gostosos {
+    opacity: 80%;
+    width: 100%;
+    background: url(Design\ sem\ nome\ \(1\).png);
+    height: 750px;
+}
+
+.Enviar {
+    width: 20%;
+    padding: 10px 0;
+    background: rgb(168, 255, 252);
+    color: #ee1984;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 20px 70px;
+}
+
+.Enviar:hover {
+    background: rgb(148, 223, 255);
+    transform: scale(1.1)
+}
+
+.ma {
+    display: inline-block;
+}
