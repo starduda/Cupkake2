@@ -214,7 +214,7 @@ th {
     width: 100%;
 }
 
-h3 {
+h2 {
     display: inline-block;
     vertical-align: top;
     width: 800px;
@@ -330,7 +330,7 @@ h3 {
     display: inline-block;
 }
 
-.ma h3 {
+.ma h2 {
     font-family: Garamond;
     font-size: 20px;
     padding: 30px;
