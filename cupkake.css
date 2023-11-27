@@ -49,9 +49,10 @@ main {
 
 .ponei {
     width: 500px;
-    padding-left: 1390px;
+    padding-left: 1200px;
     align-items: left;
     display: inline-block;
+    margin-top: -200px;
 }
 
 .h1 {
@@ -64,13 +65,7 @@ main {
     text-align: center;
 }
 
-.descrição {
-    text-align: left;
-    font-family: Garamond;
-    font-size: 20px;
-    padding: 30px;
-    display: inline-block;
-}
+
 
 
 nav {
@@ -332,5 +327,13 @@ h3 {
 }
 
 .ma {
+    display: inline-block;
+}
+
+.ma h3 {
+    font-family: Garamond;
+    font-size: 20px;
+    padding: 30px;
+    text-align: left;
     display: inline-block;
 }
