@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(245, 233, 220);
+}
+
+header {
+    background: linear-gradient(rgb(154, 241, 251), #f084ea);
+}
+
+h1 {
+    text-align: center;
+}
+
+.imagemlogo {
+    width: 24%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    font-style: oblique;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: Palatino, URW Palladio L, serif;
+}
+
+nav a:hover {
+    color: rgb(255, 84, 207);
+    text-decoration: underline;
+}
+
+.Sabores li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background: #f0d5ff;
+    margin: 0 1.5%;
+    padding: 80px 10px;
+    box-sizing: border-box;
+    border: 2px solid #a40beb;
+    border-radius: 10px;
+}
+
+.Sabores {
+    color: #7200b4;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.eitaa {
+    width: 40%;
+}
